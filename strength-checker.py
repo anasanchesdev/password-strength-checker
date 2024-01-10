@@ -8,7 +8,7 @@ while True:
     password = input('Enter a new password:\n > ')
 
     if not any(password):
-        print('You must type at least one character.')
+        print("You must type at least one character.")
         continue
 
     if len(password) >= 8:
